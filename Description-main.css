@@ -12,11 +12,7 @@ body {
 main {
     margin-top: 80px;
 }
-p {
-    font-weight: lighter;
-    color: #333;
-    font-size: larger;
-}
+
 ul {
     font-weight: lighter;
     color: #333;
