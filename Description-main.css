@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
@@ -6,19 +8,67 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center; /* Centrar el contenido horizontalmente */
-    align-items: center; /* Centrar el contenido verticalmente */
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
-.img-description-1 {
+.img-text-container {
+    display: flex;
+}
+
+.img-description-1,
+.img-description-2 {
     width: 400px;
 }
 
 .text-description-1 {
     max-width: 400px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
-/* Otros estilos ... */
+.text-description-1 h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.text-description-1 p {
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.button a#lightbox {
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px; 
+    margin-top: 2px;
+    margin-right: 4px;
+    padding: 12px 35px;
+    background-color: rgb(252, 67, 129);
+    text-decoration: none;
+}
+.button a#lightbox:hover {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#container-button-description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container-button-description button {
+    flex-basis: 48%;
+    font-size: 14px;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#container-button-description button:last-child {
+    flex-basis: 100%;
+    margin-top: 8px;
+}

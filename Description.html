@@ -12,6 +12,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="https://kit.fontawesome.com/83c6a3b014.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu nuevo archivo de estilos -->
 
 </head>
 
@@ -37,34 +38,41 @@
         <hr>
     </header>
     <main>
-        <div>
-            <div>
-                <img src="./images/description-1-app.png" alt="Photo Of The Description Of The App 1"
-                    class="img-description-1">
-            </div>
+        <div class="img-text-container">
+            <img src="./images/description-1-app.png" alt="Photo Of The Description Of The App 1"
+                class="img-description-1">
             <div class="text-description-1">
                 <h1>Organize Your Time And Start Getting Results</h1>
-                <h3>Sync is the first mobil app on the market to harness the
-                    power os social connections to help you stop procrastinating
+                <p>Sync is the first mobile app on the market to harness the
+                    power of social connections to help you stop procrastinating
                     and start getting things done. Give it a try and see the
-                    changes rught away.
-                </h3>
+                    changes right away.
+                </p>
                 <ul>
                     <li>
-                        Analyse and evaluate your current status and productivity
+                        Analyze and evaluate your current status and productivity
                     </li>
                     <li>
-                        Begin monitoring your day to day routine with Sync app
+                        Begin monitoring your day-to-day routine with the Sync app
                     </li>
                     <li>
                         See the improved results in no more than a couple of weeks
                     </li>
                 </ul>
+                <div class="button">
+                    <a href="#lightbox" id="lightbox">Lightbox</a>
+                </div>
             </div>
         </div>
-
+        <div class="img-text-container">
+            <div id="container-button-description">
+                <button type="button"><i class="fa-regular fa-clock"></i>Schedule</button>
+                <button type="button"><i class="fa-solid fa-list"></i>Tracking</button>
+                <button type="button"><i class="fa-solid fa-calendar-days"></i>Organize</button>
+            </div>
+            <img src="./images/description-2-app.png" alt="Photo Of The Description Of The App 2" class="img-description-2">
+        </div>
     </main>
-
 </body>
 
 </html>
