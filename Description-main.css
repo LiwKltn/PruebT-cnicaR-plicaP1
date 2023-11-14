@@ -1,18 +1,40 @@
-/* styles.css */
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
     margin: 0;
     padding: 0;
+    background-image: url(./images/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
     margin-top: 80px;
 }
+p {
+    font-weight: lighter;
+    color: #333;
+    font-size: larger;
+}
+ul {
+    font-weight: lighter;
+    color: #333;
+    flex-direction: column;
+    
+}
 
-.img-text-container {
+.img-text-container-1 {
     display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.img-text-container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    
 }
 
 .img-description-1,
@@ -23,6 +45,7 @@ main {
 .text-description-1 {
     max-width: 400px;
     margin-right: 20px;
+    
 }
 
 .text-description-1 h1 {
@@ -34,6 +57,9 @@ main {
     font-weight: lighter;
     font-size: 20px;
     color: rgb(92, 92, 92);
+}
+.button {
+    margin-top: 30px;
 }
 
 .button a#lightbox {
@@ -52,23 +78,93 @@ main {
     justify-content: center;
 }
 
-#container-button-description {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
 #container-button-description button {
-    flex-basis: 48%;
-    font-size: 14px;
+    font-size: 17.3px;
     margin-top: 8px;
-    padding: 8px 12px;
-    background-color: #3498db;
-    color: #fff;
+    padding: 12px 16px;
+    background-color: white;
+    color:rgb(92, 92, 92);
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #container-button-description button:last-child {
-    flex-basis: 100%;
     margin-top: 8px;
+    font-size: 18px; 
+    padding: 12px 16px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+#container-button-description button:last-child:hover {
+    background-color: #c387dd;
+    color: white;
+}
+#container-button-description button {
+    font-size: 17.3px;
+    margin-top: 8px;
+    padding: 12px 16px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#container-button-description button:hover {
+    background-color: #c387dd;
+    color: white;
+}
+.text-description-2 {
+    max-width: 400px;
+    margin-right: 20px;
+    
+}
+.text-description-2, ul {
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.button-1 {
+    display: flex;
+    justify-content: center;
+}
+.button-1 a#terms {
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px; 
+    margin-top: 2px;
+    margin-right: 4px;
+    padding: 12px 35px;
+    background-color: rgb(252, 67, 129);
+    text-decoration: none;
+}
+
+.button-1 a#terms:hover {
+    background-color: rgb(215, 67, 252);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.button-2 {
+    display: flex;
+    justify-content: center;
+}
+.button-2 a#privacy {
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+    margin-left: 10px; 
+    margin-top: 2px;
+    margin-right: 4px;
+    padding: 12px 35px;
+    background-color: #DCF6FC;
+    text-decoration: none;
+}
+
+.button-2 a#privacy:hover {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
 }

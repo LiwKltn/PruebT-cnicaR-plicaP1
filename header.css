@@ -37,11 +37,13 @@ body {
     margin-top: 2px;
     margin-right: 4px;
     padding: 12px 35px;
+    
 }
 
 .menu a#download:hover {
     background-color: #ff89b5;
     color: white;
+
 }
 
 .menu a:hover {
@@ -91,7 +93,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: none;
 }
 
 .dropdown:hover .dropdown-content {
